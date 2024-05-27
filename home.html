@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Portofio</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="mediaqueries.css">
+  </head>
+  <body>
+      <nav id="desktop-nav">
+        <div class="logo">Saifuding Daniyaer</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Saifuding Daniyaer</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/profile-my.png" alt="Saifuding daniyaer profile picture">
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Saifuding Daniyaer</h1>
+          <p class="section__text__p2">Software Engineer/Data Analysist</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/Resume.05.pdf')">
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="window.open('https://www.linkedin.com/in/daniyar-saifuding-d00963782/', '_blank')"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My GitHub profile"
+              class="icon"
+              onclick="window.open('https://github.com/DaniyarTheGreat/', '_blank')"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img src="./assets/file.png" alt="Profile picture" class="about-pic">
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <!-- <div class="details-container">
+                <img src="./assets//experience.png" alt="experience icon" class="icon">
+                <h3>Experience</h3>
+                <p>2+ years <br />Frontend Development</p>
+              </div> -->
+              <div class="details-container">
+                <img src="./assets//education.png" alt="education icon" class="icon">
+                <h3>Education</h3>
+                <p>B.Sc. Bachelors Degree in Computer Science</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>Hello! My name is Saifuding Daniyaer. I have graduated with a Bachelor of Science in Computer Science at Virginia Commonwealth University (VCU) in Richmond, VA.</p>
+              <p>As an enthusiastic and dedicated Computer Science student, I have honed my skills in various programming languages and frameworks, including Python, Flask, and Pygame. My passion lies in developing innovative solutions through coding and data analysis, which is reflected in my academic and independent projects.</p>                
+              <p>In my capstone project, I led a team to develop a voice-driven AI program using Langchain and WhisperAI, enhancing user interaction with AI technologies. I also have experience in database development, having created a relational database for a travel agency with SQL and Flask, and in data analysis, where I utilized deep learning algorithms to differentiate DNA and RNA sequences.</p>
+              <p>I am now seeking full-time opportunities where I can leverage my skills and experiences to contribute to innovative projects and grow as a professional in the tech industry. Feel free to explore my portfolio to see some of the exciting projects I have worked on!</p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Software Development</h2>
+              <div class="article-container">
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>Flask</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>RESTful</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>Selenium</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>Figma</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>React Native</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>GIT</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Data Analysist</h2>
+              <div class="article-container">
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>RapidMiner</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>Panda</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>Numpy</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>Deep Learning</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Skills icon"
+                  class="icon">
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#projects'"
+        />
+      </section>
+      <section id="projects"> 
+        <p class="section__text__p1">Browse my Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img 
+                src="./assets/capstone.png" 
+                alt="Blockly"
+                class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Blockly</h2>
+              <p class="section__text__p1 projects-section">Built voice-driven program feature in blockly enviroment that communicates with OpenAI</p>
+              <div class="btn-container">
+                <button 
+                  class="btn btn-color-2 project-btn" 
+                  onclick="window.open('https://github.com/vcu-swim-lab/llm-to-coblox-programming/', '_blank')"
+                >
+                  Github
+                </button>
+                <button 
+                  class="btn btn-color-2 project-btn" 
+                  onclick="window.open('https://hammerhead-app-to4oc.ondigitalocean.app/', '_blank')"
+                  target="_blank"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img 
+                src="./assets/p2.png" 
+                alt="Protein Analyzer"
+                class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Protein Analyzer</h2>
+              <p class="section__text__p1 projects-section">Used RapidMiner and Deep Learning to build a model that can analyze protein sequences</p>
+              <div class="btn-container">
+                <button 
+                  class="btn btn-color-2 project-btn" 
+                  onclick="window.open('https://github.com/Ian-J-Jaffe/CMSC-435-Project/', '_blank')"
+                >
+                  Github
+                </button>
+                <button 
+                  class="btn btn-color-2 project-btn" 
+                  onclick="window.open('./assets/report.pdf')"
+                >
+                  Document
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img 
+                src="./assets/travel.png" 
+                alt="Travel Database"
+                class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Travel Database</h2>
+              <p class="section__text__p1 projects-section">Designed a database for fictional travel agency with MySQL. Set up end points with Flask to access records</p>
+              <div class="btn-container">
+                <button 
+                  class="btn btn-color-2 project-btn" 
+                  onclick="window.open('https://github.com/cmsc-vcu/cmsc508-fa2023-prj-traveldatabase-group/', '_blank')"
+                >
+                  Github
+                </button>
+                <!-- <button 
+                  class="btn btn-color-2 project-btn" 
+                  onclick="window.open('./Deliverable7.html', '_blank')"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img 
+                src="./assets/atomic.png" 
+                alt="Atomic Learner"
+                class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Atomic Learner</h2>
+              <p class="section__text__p1 projects-section">Created mobile application with React Native that helps users study Chemistry. Used Figma for the design</p>
+              <div class="btn-container">
+                <button 
+                  class="btn btn-color-2 project-btn" 
+                  onclick="window.open('https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-DaniyarTheGreat/', '_blank')"
+                >
+                  Github
+                </button>
+                <button 
+                  class="btn btn-color-2 project-btn" 
+                  onclick="window.open('https://snack.expo.dev/@daniyarthegreat/atomic-learner-v1/', '_blank')"
+                  target="_blank"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img 
+            src="./assets/email.png" 
+            alt="email icon" 
+            class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:daniyarsaifuding@gmail.com">daniyarsaifuding@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img 
+            src="./assets/linkedin.png" 
+            alt="linkedin icon" 
+            class="icon contact-icon"
+            />
+            <p><a href='https://www.linkedin.com/in/daniyar-saifuding-d00963782/' target="_blank">Linkedin</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+      <script src="app.js"></script>
+  </body>
+</html>
